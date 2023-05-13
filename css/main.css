@@ -34,6 +34,7 @@
     padding: 16px;
     background: #B655F5;
     color: #000;
+    border-left: 0.5px solid #000;
   }
 
   .purple {
