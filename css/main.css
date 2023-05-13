@@ -1,10 +1,10 @@
-.th-ink-plans{
+.th-ink-plans {
     max-width: 1050px;
     width: 100%;
     margin: 0 auto;
-  } 
-  
-  .th-ink-plans ul.th-ink-col{
+}
+
+.th-ink-plans ul.th-ink-col {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -17,56 +17,57 @@
     border-bottom: 0.5px solid #000;
     margin-right: -4px;
     transition: all .5s;
-  }
-  
-  .th-ink-plans ul.th-ink-col:first-of-type {
+}
+
+.th-ink-plans ul.th-ink-col:first-of-type {
     border-left: 0.5px solid #000;
 }
-  
-  .th-ink-plans ul.th-ink-col li{
+
+.th-ink-plans ul.th-ink-col li {
     padding: 16px;
     text-align: center;
     position: relative;
-  }
-  
-  .th-ink-plans ul.th-ink-col li.title{
+}
+
+.th-ink-plans ul.th-ink-col li.title {
     text-align: center;
     padding: 16px;
     background: #B655F5;
     color: #000;
     border-left: 0.5px solid #000;
-  }
+}
 
-  .purple {
+.purple {
     background-color: #C577F7;
-  }
+}
 
-  .lightPurple {
+.lightPurple {
     background-color: #E9CCFC;
-  }
-  
- 
+}
 
-
-  
-  /* 
-  
-
-  .th-ink-plans ul.th-ink-col:last-of-type{ 
-    margin-right: 0;
-  }
-  .th-ink-plans ul.th-ink-col li:last-of-type{
+.pricing-btn {
     text-align: center;
-    margin-top: auto; 
-  }   */
-  
- 
-  
-  @media only screen and (max-width: 600px) {
-    .th-ink-plans ul.th-ink-col{
-      border-radius: 0;
-      width: 100%;
-      margin-right: 0;
+}
+
+.pricing-btn a {
+    font: 700 16px/22px FormaDJRMicro, sans-serif;
+    text-transform: unset;
+    padding: 10px 32px;
+    border-radius: 0;
+    transition: all ease .3s;
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .th-ink-plans ul.th-ink-col {
+        border-radius: 0;
+        width: 100%;
+        margin-right: 0;
     }
-    
-  }
+
+}
