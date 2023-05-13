@@ -19,6 +19,9 @@
     transition: all .5s;
   }
   
+  .th-ink-plans ul.th-ink-col:first-of-type {
+    border-left: 0.5px solid #000;
+}
   
   .th-ink-plans ul.th-ink-col li{
     padding: 16px;
