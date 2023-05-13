@@ -4,6 +4,11 @@
     margin: 0 auto;
 }
 
+.th-ink-plans h2 {
+    font: 400 28px/36px FormaDJRMicro, sans-serif;
+    text-align: center;
+}
+
 .th-ink-plans ul.th-ink-col {
     list-style: none;
     margin: 0;
@@ -27,9 +32,11 @@
     padding: 16px;
     text-align: center;
     position: relative;
+    font: 400 18px/22px FormaDJRMicro, sans-serif;
 }
 
 .th-ink-plans ul.th-ink-col li.title {
+    font: 400 20px/28px FormaDJRMicro, sans-serif;
     text-align: center;
     padding: 16px;
     background: #B655F5;
@@ -47,6 +54,7 @@
 
 .pricing-btn {
     text-align: center;
+    margin-top: 17px;
 }
 
 .pricing-btn a {
@@ -61,6 +69,10 @@
     border: 1px solid #000;
 }
 
+.pricing-btn a:hover {
+    background-color: #7B7979;
+    border: none;
+}
 
 
 @media only screen and (max-width: 600px) {
