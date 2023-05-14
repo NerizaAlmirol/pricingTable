@@ -1,3 +1,4 @@
+.th-toner-plans,
 .th-ink-plans {
     max-width: 1050px;
     width: 100%;
@@ -55,6 +56,11 @@
 .pricing-btn {
     text-align: center;
     margin-top: 17px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #000;
+}
+
+.th-ink-plans .pricing-btn {
     padding-bottom: 40px;
     border-bottom: 1px solid #000;
 }
