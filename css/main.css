@@ -12,7 +12,7 @@
     text-align: center;
 }
 
-.th-toner-plans ul.th-ink-col,
+.th-toner-plans ul.th-toner-col,
 .th-ink-plans ul.th-ink-col {
     list-style: none;
     margin: 0;
@@ -28,12 +28,12 @@
     transition: all .5s;
 }
 
-.th-toner-plans ul.th-ink-col:first-of-type,
+.th-toner-plans ul.th-toner-col:first-of-type,
 .th-ink-plans ul.th-ink-col:first-of-type {
     border-left: 0.5px solid #000;
 }
 
-.th-toner-plans ul.th-ink-col li, 
+.th-toner-plans ul.th-toner-col li, 
 .th-ink-plans ul.th-ink-col li {
     padding: 16px;
     text-align: center;
@@ -50,13 +50,12 @@
     border-left: 0.5px solid #000;
 }
 
-.th-toner-plans ul.th-ink-col li.title {
+.th-toner-plans ul.th-toner-col li.title {
     font: 400 20px/28px FormaDJRMicro, sans-serif;
     text-align: center;
     padding: 16px;
     background: #5969F7;
     color: #000;
-    border-left: 0.5px solid #000;
 }
 
 .purple {
@@ -87,6 +86,11 @@
     border-bottom: 1px solid #000;
 }
 
+.th-toner-plans .pricing-btn {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #fff;
+}
+
 .pricing-btn a {
     font: 700 16px/22px FormaDJRMicro, sans-serif;
     text-transform: unset;
@@ -106,7 +110,7 @@
 
 
 @media only screen and (max-width: 720px) {
-    .th-toner-plans ul.th-ink-col,
+    .th-toner-plans ul.th-toner-col,
     .th-ink-plans ul.th-ink-col {
         border-radius: 0;
         width: 100%;
@@ -114,7 +118,7 @@
         border: 0.5px solid #000;
     }
 
-    .th-toner-plans ul.th-ink-col li.title,
+    .th-toner-plans ul.th-toner-col li.title,
     .th-ink-plans ul.th-ink-col li.title {
         border-left: 0.5px solid transparent;
     }
