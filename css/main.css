@@ -5,11 +5,14 @@
     margin: 0 auto;
 }
 
+
+.th-toner-plans h2,
 .th-ink-plans h2 {
     font: 400 28px/36px FormaDJRMicro, sans-serif;
     text-align: center;
 }
 
+.th-toner-plans ul.th-ink-col,
 .th-ink-plans ul.th-ink-col {
     list-style: none;
     margin: 0;
@@ -25,10 +28,12 @@
     transition: all .5s;
 }
 
+.th-toner-plans ul.th-ink-col:first-of-type,
 .th-ink-plans ul.th-ink-col:first-of-type {
     border-left: 0.5px solid #000;
 }
 
+.th-toner-plans ul.th-ink-col li, 
 .th-ink-plans ul.th-ink-col li {
     padding: 16px;
     text-align: center;
@@ -101,6 +106,7 @@
 
 
 @media only screen and (max-width: 720px) {
+    .th-toner-plans ul.th-ink-col,
     .th-ink-plans ul.th-ink-col {
         border-radius: 0;
         width: 100%;
@@ -108,7 +114,7 @@
         border: 0.5px solid #000;
     }
 
-
+    .th-toner-plans ul.th-ink-col li.title,
     .th-ink-plans ul.th-ink-col li.title {
         border-left: 0.5px solid transparent;
     }
